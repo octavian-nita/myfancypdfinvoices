@@ -1,0 +1,57 @@
+# See https://stackoverflow.com/questions/41761128/are-leading-asterisks-redundant-in-gitignore-path-matching-syntax
+
+.idea/
+*.iml
+*.iws
+
+.settings/
+.buildpath
+.classpath
+.project
+
+nbproject/
+nbactions.xml
+nb-configuration.xml
+
+tomcat*/
+
+*.pyc
+*.pyo
+
+.flattened-pom.xml
+dependency-reduced-pom.xml
+rebel*
+*.cache
+
+bin/
+dist/
+target/
+node_modules/
+**/src/_includes/css
+
+log/
+*.log*
+
+npm-debug.*
+
+*.scssc
+*.swp
+.sass-cache
+.env
+.cache
+
+tmp/
+*.lck*
+*.lock*
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
